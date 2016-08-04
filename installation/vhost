@@ -1,0 +1,10 @@
+<VirtualHost *:80>
+    DocumentRoot "/var/www/summercamp/workshops/phpstorm"
+    ServerName phpstorm.websc
+    <Directory "/var/www/summercamp/workshops/phpstorm">
+        Options Indexes FollowSymLinks
+        AllowOverride All
+        Require all granted
+        SetEnv SYMFONY_ENV dev
+    </Directory>
+</VirtualHost>
