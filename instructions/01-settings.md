@@ -27,6 +27,7 @@ and assign them the corresponding shortcuts:
 | Surround with Live Template... | `Alt+T` |
 | Reformat Code | `Ctrl+Shift+Y` | 
 | Settings... | `Ctrl+Alt+Shift+S` |
+| Main menu, Navigate, Select In... | `Ctrl+Shift+F1` |
 
 
 Editor settings
