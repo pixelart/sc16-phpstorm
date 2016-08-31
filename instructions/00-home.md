@@ -2,16 +2,18 @@
 
 A) Start up the virtual machine!
 
-B) In the virtual machine, open a terminal and change into the summercamp folder
+B) In the virtual machine, open a terminal and change into the workshop folder
 
 ```bash
-cd ~/summercamp/
+cd ~/summercamp/workshops/phpstorm/
 ```
 
-C) Run the installation script, even if you have done it before at home!
+C) Pull the latest code and run the installation script.
 
 ```bash
-./run.sh phpstorm
+git checkout master
+git pull origin master
+installation/run.sh
 ```
 
 D) Finally you should be able to go to `http://phpstorm.phpsc/` and create
